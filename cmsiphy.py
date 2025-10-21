@@ -50,18 +50,7 @@ def expand_abbreviations(text: str) -> str:
     return text
 
 
-def detect_modifier(phrase: str) -> str:
-    if re.search(r"acute|new|sudden", phrase, re.I):
-        return "acute"
-    if re.search(r"chronic|hx of", phrase, re.I):
-        return "chronic"
-    if re.search(r"improv|resolv", phrase, re.I):
-        return "resolving"
-    if re.search(r"uncontrolled|poorly", phrase, re.I):
-        return "uncontrolled"
-    if re.search(r"controlled|well controlled", phrase, re.I):
-        return "controlled"
-    return "unspecified"
+from modifiers import detect_modifier
 
 
 def extract_supporting(text: str) -> str:
