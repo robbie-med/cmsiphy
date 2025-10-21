@@ -4,21 +4,20 @@ A local app to cmsify your notes
 ⸻
 
 🧰 How to Use It
-	1.	Install dependencies (once):
+1.	Install dependencies (once):
 
-pip install pandas rapidfuzz
+		pip install pandas rapidfuzz
 
+2.	Download ICD-10 codes (from CMS.gov):
+	Go to https://www.cms.gov/medicare/icd-10/2025-icd-10-cm
+	Extract the CSV (e.g., icd10cm_codes.csv) into the same folder as the script.
+3.	Run it:
 
-	2.	Download ICD-10 codes (from CMS.gov):
-	•	Go to https://www.cms.gov/medicare/icd-10/2025-icd-10-cm
-	•	Extract the CSV (e.g., icd10cm_codes.csv) into the same folder as the script.
-	3.	Run it:
-
-python cmsify.py note.txt
+		python cmsify.py note.txt
 
 or
 
-cat note.txt | python cmsify.py
+		cat note.txt | python cmsify.py
 
 
 
