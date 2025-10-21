@@ -2,7 +2,6 @@
 """
 cmsify.py
 Offline CMS/ICD-10 language converter for Daily Progress Notes.
-Author: Robbie Sikora, MD (In His Image FM Residency)
 Version: 1.0  —  Local-only, hallucination-proof
 """
 
