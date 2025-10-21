@@ -45,9 +45,3 @@ Output
 ✅ No LLM or network calls
 ✅ Fully script-based reasoning (deterministic)
 ✅ Can be bundled into an .exe or .app via pyinstaller for one-click use in clinic or hospital
-
-⸻
-
-Would you like me to extend this so it also:
-	•	Parses entire multi-section notes (e.g., separates “Assessment/Plan” blocks automatically), and
-	•	Outputs Markdown or CSV files for upload into your EHR note templates?
